@@ -3,14 +3,14 @@ Image quality assessment (IQA) is an important element of a broad spectrum of ap
 
 In this repository, the code belonging to Multi-pooled Inception Features for No-reference Image Quality Assessment can be found. If you use this code, please cite the following paper:
 
-@article{varga2020multi,
-  title={Multi-Pooled Inception Features for No-Reference Image Quality Assessment},
-  author={Varga, Domonkos},
-  journal={Applied Sciences},
-  volume={10},
-  number={6},
-  pages={2186},
-  year={2020},
-  publisher={Multidisciplinary Digital Publishing Institute}
+@article{varga2020multi,<br/>
+  title={Multi-Pooled Inception Features for No-Reference Image Quality Assessment},<br/>
+  author={Varga, Domonkos},<br/>
+  journal={Applied Sciences},<br/>
+  volume={10},<br/>
+  number={6},<br/>
+  pages={2186},<br/>
+  year={2020},<br/>
+  publisher={Multidisciplinary Digital Publishing Institute}<br/>
 }
 
