@@ -14,3 +14,11 @@ In this repository, the code belonging to Multi-pooled Inception Features for No
   publisher={Multidisciplinary Digital Publishing Institute}<br/>
 }
 
+The source code was written and tested in MATLAB R2019a.<br/> 
+Required toolboxes: <br/>
+- Image Processing Toolbox <br/>
+- Statistics and Machine Learning Toolbox <br/>
+- Deep Learning Toolbox <br/>
+- Parallel Computing Toolbox <br/>
+- Add-ons: GoogLeNet, Inception-v3, Inception-ResNet-v2 networks <br/>
+
