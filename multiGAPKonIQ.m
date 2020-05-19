@@ -8,7 +8,7 @@ Constants.numberOfImages = size(mos,1);
 Constants.BaseCNN = 'inceptionv3';
 Constants.numberOfTrainImages = round( 0.8*Constants.numberOfImages );
 Constants.numberOfSplits = 20;
-Constants.regressor = 'svr'; % svr, gpr, nn can be choosen
+Constants.regressor = 'svr'; % svr or gpr can be choosen
 Constants.TransferLearning = false;
 
 [net, Layers, length] = LoadBaseCNN(Constants);
