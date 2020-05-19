@@ -1,5 +1,9 @@
 function [g] = GlobalPooling(f, str)
 
+    if( ndims(f)~=3 && ndims(f)~=2)
+        error('Feature tensor dimension is three (or two)');
+    end
+
     numberOfFeatureMaps = size(f,3);
     g = zeros(1,1,numberOfFeatureMaps);
     
