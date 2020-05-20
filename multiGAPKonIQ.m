@@ -3,10 +3,10 @@ close all
 
 load KonIQ10k.mat
 
-Constants.Directory = '/media/dvi/HD-B1/KonIQ-10k/1024x768';
-Constants.numberOfImages = size(mos,1);
-Constants.BaseCNN = 'inceptionv3';
-Constants.numberOfTrainImages = round( 0.8*Constants.numberOfImages );
+Constants.Directory = '/media/dvi/HD-B1/KonIQ-10k/1024x768';  % path to KonIQ-10k database 
+Constants.numberOfImages = size(mos,1);   % number of images in KonIQ-10k database
+Constants.BaseCNN = 'inceptionv3';        % applied base convolutional neural network architecture
+Constants.numberOfTrainImages = round( 0.8*Constants.numberOfImages );   % appx. 80% of images is used for training
 Constants.numberOfSplits = 20;
 Constants.regressor = 'svr'; % svr or gpr can be choosen
 Constants.TransferLearning = false;
