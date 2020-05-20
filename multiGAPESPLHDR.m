@@ -1,12 +1,12 @@
 clear all
 close all
 
-load ESPL_LIVE_HDR.mat
+load ESPL_LIVE_HDR.mat  % This mat file contains information about ESPL LIVE HDR database
 
-Constants.Directory = '/media/dvi/HD-B1/ESPL-LIVE-HDR/HDRDatabase/ESPL_LIVE_HDR_Database/Images';
-Constants.numberOfImages = size(MOS,1);
-Constants.BaseCNN = 'inceptionv3';
-Constants.numberOfTrainImages = round( 0.8*Constants.numberOfImages );
+Constants.Directory = '/media/dvi/HD-B1/ESPL-LIVE-HDR/HDRDatabase/ESPL_LIVE_HDR_Database/Images'; % path to ESPL LIVE HDR database
+Constants.numberOfImages = size(MOS,1); % number of images in ESPL LIVE HDR database
+Constants.BaseCNN = 'inceptionv3';   % applied base convolutional neural network architecture
+Constants.numberOfTrainImages = round( 0.8*Constants.numberOfImages );  % appx. 80% of images are used in training
 Constants.numberOfSplits = 20;
 Constants.regressor = 'gpr'; % svr or gpr can be choosen
 Constants.TransferLearning = false;
