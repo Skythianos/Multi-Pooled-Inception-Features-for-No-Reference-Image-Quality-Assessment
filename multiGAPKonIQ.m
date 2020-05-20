@@ -1,7 +1,7 @@
 clear all
 close all
 
-load KonIQ10k.mat
+load KonIQ10k.mat    % This mat file contains information about the database (KonIQ-10k)
 
 Constants.Directory = '/media/dvi/HD-B1/KonIQ-10k/1024x768';  % path to KonIQ-10k database 
 Constants.numberOfImages = size(mos,1);   % number of images in KonIQ-10k database
